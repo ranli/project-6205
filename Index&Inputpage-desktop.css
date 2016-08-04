@@ -1,0 +1,72 @@
+html, body, nav, header, footer, div, a, h1, li, ul, form, figure, img
+{
+   margin: 0;
+   padding: 0;
+   font-size: 100%;
+   border: 0;
+}
+
+header,footer{
+    background-color: #213643;
+	
+}
+
+
+h1 { font-size: 200%;
+     height: 2em;
+	 color: white;
+	 padding-top: 1em;
+	 }
+
+a:link{ 
+ 
+  font-weight: bold;
+  
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #336699;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 15px 18px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #4CAF50;
+}
+
+form{
+	font-size:100%;
+	text-align: left;
+	font-weight: bold;
+        margin-left: 5em;
+}
+
+span {
+     color: red;
+     
+	 font-size: 50%;
+	 }
+
+
+footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 4em;
+    margin-top: 2em;
+}
+
